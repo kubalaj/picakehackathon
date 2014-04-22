@@ -7,11 +7,11 @@
     <meta name="Prototpye for picaxepedia" content="">
     <meta name="Paul Kubala" content="">
 
-    
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- Used from http://fortawesome.github.io/Font-Awesome/ -->
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script></head>
+   
 
 
     <!-- Add custom CSS here -->
@@ -43,7 +43,13 @@
     .icon{
 
     }
-
+    code {
+        border: 1px solid #000033;
+        background-color: #EEE;
+        padding: 10px;
+        font: 300 12px tahoma;
+        [b]display:block;[/b]
+    } 
 
 
     </style>
@@ -66,22 +72,18 @@
 	
 <div class="row">
 <div class="col-lg-12">
-<h2>Straight Line<br><br></h2>
+    <h2>{{ name }} </br></br></h2>
 </div>
 </div>
 <div class="row">
 <div class="col-lg-12">
 <p>
-The following code will drive the picaxe robot in a straight line
+{{ description }}
 </p>
 <br>
 <code>
-main:<br>
-forward A;<br> 
-go forwards<br>
-forward B<br>
-<br>
-goto main</code>
+    {{ code }}
+</code>
 </div>
 </div>
 
