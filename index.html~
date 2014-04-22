@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Prototpye for picaxepedia" content="">
+    <meta name="Paul Kubala" content="">
+
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Used from http://fortawesome.github.io/Font-Awesome/ -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+
+
+    <!-- Add custom CSS here -->
+    <style>
+    body {
+        margin-top: 30px;
+        font-family: cool_font;
+        margin-left: 50px;
+        text-align: center;
+    }
+    @font-face {
+	font-family: cool_font;
+	src: url('Milano_regular.ttf');
+	}
+	a {
+
+		color: black;
+	}
+	h1{
+		font-size: 125px;
+	}
+    .menu{
+        font-size: 28px;
+
+    }
+    .fa:hover{
+        color:  #6A6E6E;
+    }
+    .icon{
+
+    }
+
+
+
+    </style>
+</head>
+<body>
+
+    
+
+<!--Code for Challenge 2 part 1-->
+   
+
+<!--Header-->
+
+      <div class="row">  
+        	<div class="col-lg-12">
+		<h1>Picaxepedia</h1>
+	</div>
+    </div>
+
+	
+<div class="row">
+<div class="col-lg-12">
+<h2>Straight Line<br><br></h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<p>
+The following code will drive the picaxe robot in a straight line
+</p>
+<br>
+<code>
+main:<br>
+forward A;<br> 
+go forwards<br>
+forward B<br>
+<br>
+goto main</code>
+</div>
+</div>
+
+
+
+
+
+
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
